@@ -1,0 +1,9 @@
+# Training configuration from the paper (Table 1), shared by all three subtasks
+model: xlm-roberta-base
+max_length: 256
+batch_size: 16
+learning_rate: 2.0e-5   # AdamW
+epochs: 3
+dropout: 0.1
+weight_decay: 0.01
+scheduler: linear

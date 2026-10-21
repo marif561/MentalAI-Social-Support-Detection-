@@ -1,0 +1,7 @@
+task,language,macro_f1_from_per_class
+1,English,0.8288
+1,Spanish,0.8084
+2,English,0.5411
+2,Spanish,0.6476
+3,English,0.8074
+3,Spanish,0.8200

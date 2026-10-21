@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+    <style>
+      .box{fill:#f6f8fa;stroke:#d0d7de;stroke-width:1.5}
+      .m{fill:#ddf4ff;stroke:#54aeff;stroke-width:1.5}
+      .t{font-size:15px;font-weight:600;fill:#1f2328;text-anchor:middle}
+      .s{font-size:12px;fill:#57606a;text-anchor:middle}
+      .ln{stroke:#57606a;stroke-width:1.6;fill:none;marker-end:url(#a)}
+      .lab{font-size:11px;fill:#0969da;font-weight:600}
+    </style>
+  </defs>
+  <rect width="960" height="300" fill="#ffffff"/>
+  <text x="480" y="30" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">Hierarchical SSD-2026 subtasks · one fine-tuned XLM-R per task and language</text>
+
+  <rect class="box" x="10" y="110" width="150" height="80" rx="10"/>
+  <text class="t" x="85" y="142">Comment</text>
+  <text class="s" x="85" y="164">English / Spanish</text>
+
+  <rect class="box" x="190" y="110" width="150" height="80" rx="10"/>
+  <text class="t" x="265" y="142">Pre-processing</text>
+  <text class="s" x="265" y="164">lowercase · URLs · @</text>
+
+  <rect class="m" x="370" y="110" width="160" height="80" rx="10"/>
+  <text class="t" x="450" y="142">Task 1</text>
+  <text class="s" x="450" y="164">Support / Non-Support</text>
+
+  <rect class="m" x="570" y="110" width="160" height="80" rx="10"/>
+  <text class="t" x="650" y="142">Task 2</text>
+  <text class="s" x="650" y="164">Individual / Group</text>
+
+  <rect class="m" x="770" y="110" width="180" height="80" rx="10"/>
+  <text class="t" x="860" y="138">Task 3</text>
+  <text class="s" x="860" y="158">Nation · LGBTQ · Black</text>
+  <text class="s" x="860" y="174">Religion · Women · Other</text>
+
+  <path class="ln" d="M160,150 H187"/>
+  <path class="ln" d="M340,150 H367"/>
+  <path class="ln" d="M530,150 H567"/>
+  <text class="lab" x="533" y="140">Support</text>
+  <path class="ln" d="M730,150 H767"/>
+  <text class="lab" x="736" y="140">Group</text>
+
+  <rect x="370" y="225" width="580" height="44" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-dasharray="4 3"/>
+  <text class="s" x="660" y="252">XLM-RoBERTa-base · max len 256 · batch 16 · AdamW 2e-5 · 3 epochs · linear schedule</text>
+</svg>

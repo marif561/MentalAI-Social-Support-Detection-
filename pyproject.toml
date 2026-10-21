@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssd"
+version = "1.0.0"
+description = "Multilingual social support detection (SSD-2026) with XLM-RoBERTa"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Muhammad Arif" }, { name = "Muhammad Tayyab Zamir" },
+  { name = "Samah Fodeh" }, { name = "Moein Shahiki Tash" },
+]
+dependencies = ["pandas", "numpy", "scikit-learn>=1.2", "pyyaml"]
+
+[project.optional-dependencies]
+train = ["torch>=2.0", "transformers>=4.41", "datasets>=2.14", "accelerate>=0.25", "sentencepiece"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

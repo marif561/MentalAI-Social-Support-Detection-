@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/
+checkpoints/
+wandb/
+.DS_Store
+
+# SSD-2026 data comes from the organisers — never commit it
+data/en/
+data/es/
+data/*.csv
+!data/sample_task*.csv

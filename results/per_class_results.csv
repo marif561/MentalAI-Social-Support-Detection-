@@ -1,0 +1,21 @@
+task,language,class,precision,recall,f1
+1,English,Non-Support,0.9156,0.9741,0.9332
+1,English,Support,0.8542,0.6454,0.7244
+1,Spanish,Non-Support,0.9321,0.9241,0.9145
+1,Spanish,Support,0.7183,0.6987,0.7022
+2,English,Group,0.8132,0.6662,0.7112
+2,English,Individual,0.5752,0.3214,0.3709
+2,Spanish,Group,0.7037,0.5937,0.6319
+2,Spanish,Individual,0.8217,0.5778,0.6633
+3,English,Nation,0.8421,0.8000,0.8205
+3,English,Other,0.7684,0.7290,0.7482
+3,English,LGBTQ,0.8857,0.8158,0.8493
+3,English,Black Community,0.7917,0.7600,0.7755
+3,English,Religion,0.8679,0.8483,0.8580
+3,English,Women,0.8214,0.7667,0.7931
+3,Spanish,Nation,0.8537,0.8182,0.8356
+3,Spanish,Other,0.7812,0.7463,0.7634
+3,Spanish,LGBTQ,0.8947,0.8293,0.8608
+3,Spanish,Black Community,0.8049,0.7674,0.7857
+3,Spanish,Religion,0.8750,0.8537,0.8642
+3,Spanish,Women,0.8348,0.7872,0.8103
